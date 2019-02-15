@@ -96,3 +96,53 @@ header nav a:hover{
     text-decoration: underline;
     color: black;
 }
+
+header .logo {
+    margin: 14px;
+}
+
+/* content styles */
+
+.top-content {
+    border-bottom: 1px dashed black;
+}
+
+.top-content .jumbo {
+    margin: 20px 0 10px 0;
+}
+
+.top-content .about {
+    margin: 20px 20px;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.main-content .box {
+    width: 45%;
+    margin: 20px 0 20px 0;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+
+.main-content .box h2 {
+    padding-top: 10px;
+}
+
+.main-content .box button {
+    padding: 10px 20px; 
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.main-content .box button:hover {
+    background: black;
+    color: white;
+} 
