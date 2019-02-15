@@ -97,6 +97,10 @@ header nav a:hover{
     color: black;
 }
 
+header .logo {
+    margin: 14px;
+}
+
 /* content styles */
 
 .top-content {
@@ -111,6 +115,11 @@ header nav a:hover{
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-content .jumbo-img {
+    margin: 20px;
+
 }
 
 .middle-content {
